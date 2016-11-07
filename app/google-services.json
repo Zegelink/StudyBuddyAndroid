@@ -1,0 +1,117 @@
+{
+  "project_info": {
+    "project_number": "761653133499",
+    "firebase_url": "https://studybuddy-abc04.firebaseio.com",
+    "project_id": "studybuddy-abc04",
+    "storage_bucket": "studybuddy-abc04.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761653133499:android:6280d48ad9b67c4f",
+        "android_client_info": {
+          "package_name": "zheng.studybuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "761653133499-u4sq34rb3jf3hk0rm40kfk532vki9ug3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY4OY6PleAcub3bHgPwCKyStAtNFClCCc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761653133499:android:22d76935dc8bf743",
+        "android_client_info": {
+          "package_name": "com.firebase.androidchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "761653133499-u4sq34rb3jf3hk0rm40kfk532vki9ug3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY4OY6PleAcub3bHgPwCKyStAtNFClCCc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761653133499:android:db459e2eeb960611",
+        "android_client_info": {
+          "package_name": "xyz.zegelink.studybuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "761653133499-ldv3f4hak7uq4g779b1m306onmuen4ll.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "xyz.zegelink.studybuddy",
+            "certificate_hash": "68452471AB307969B2431C34196AA6E7B545FB9F"
+          }
+        },
+        {
+          "client_id": "761653133499-u4sq34rb3jf3hk0rm40kfk532vki9ug3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY4OY6PleAcub3bHgPwCKyStAtNFClCCc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "761653133499-u4sq34rb3jf3hk0rm40kfk532vki9ug3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
