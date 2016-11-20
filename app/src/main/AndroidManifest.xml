@@ -25,7 +25,8 @@
         </activity>
         <activity android:name=".registerAndLogin.LoginActivity" />
         <activity android:name=".registerAndLogin.RegisterActivity" />
-        <activity android:name=".MainActivityLoggedIn" />
+        <activity android:name=".ClassListMainLoggedIn" />
+        <activity android:name=".ClassListMainGuest" />
         <activity android:name=".firebaseChatRoom.ChatRoom" />
         <activity android:name=".firebaseChatRoom.AddClass" />
 

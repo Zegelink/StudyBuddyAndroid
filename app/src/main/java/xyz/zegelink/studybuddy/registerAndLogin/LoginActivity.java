@@ -20,8 +20,7 @@ import com.android.volley.toolbox.Volley;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import xyz.zegelink.studybuddy.MainActivity;
-import xyz.zegelink.studybuddy.MainActivityLoggedIn;
+import xyz.zegelink.studybuddy.ClassListMainLoggedIn;
 import xyz.zegelink.studybuddy.R;
 
 public class LoginActivity extends AppCompatActivity {
@@ -67,7 +66,7 @@ public class LoginActivity extends AppCompatActivity {
 
                             if (success){
                                 String email = jsonResponse.getString("email");
-                                Intent intent = new Intent(LoginActivity.this, MainActivityLoggedIn.class);
+                                Intent intent = new Intent(LoginActivity.this, ClassListMainLoggedIn.class);
 
                                 SharedPreferences.Editor editor = sharedpreferences.edit();
                                 editor.putString("email", email);
@@ -93,10 +92,10 @@ public class LoginActivity extends AppCompatActivity {
         });
     }
 
-    //if user is logged in, return them to the MainActivityLoggedIn
+    //if user is logged in, return them to the ClassListMainLoggedIn
     private void checkUserLogin(){
         if (sharedpreferences.getString("email","0") != "0"){
-            Intent intent = new Intent(LoginActivity.this, MainActivityLoggedIn.class);
+            Intent intent = new Intent(LoginActivity.this, ClassListMainLoggedIn.class);
             LoginActivity.this.startActivity(intent);
         }
     }

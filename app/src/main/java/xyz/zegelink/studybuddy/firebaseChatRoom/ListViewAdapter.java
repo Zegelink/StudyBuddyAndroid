@@ -16,6 +16,7 @@ import android.widget.Toast;
 
 import java.util.List;
 
+import xyz.zegelink.studybuddy.ClassListMain;
 import xyz.zegelink.studybuddy.MainActivity;
 import xyz.zegelink.studybuddy.R;
 
@@ -25,11 +26,11 @@ import xyz.zegelink.studybuddy.R;
 
 public class ListViewAdapter extends ArrayAdapter<Classes> {
 
-    private AppCompatActivity activity;
+    private ClassListMain activity;
     private ClassDatabase databaseHelper;
     private List<Classes> classesList;
 
-    public ListViewAdapter(AppCompatActivity context, int resource, List<Classes> objects, ClassDatabase helper) {
+    public ListViewAdapter(ClassListMain context, int resource, List<Classes> objects, ClassDatabase helper) {
         super(context, resource, objects);
         this.activity = context;
         this.databaseHelper = helper;

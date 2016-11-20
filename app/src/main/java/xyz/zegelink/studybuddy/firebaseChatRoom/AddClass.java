@@ -37,9 +37,18 @@ public class AddClass extends AppCompatActivity {
                 className = (EditText) findViewById(R.id.etClass);
                 schoolName = (EditText) findViewById(R.id.etSchool);
                 classString = className.getText().toString();
+
                 schoolString = schoolName.getText().toString();
                 ClassDatabase Db = new ClassDatabase(ctx);
-                if (Db.insertData(classString, schoolString)){
+
+                if (classString.contains("-") || schoolString.contains("-")) {
+                    AlertDialog.Builder builder = new AlertDialog.Builder(AddClass.this);
+                    builder.setMessage("'-' symbol is reserved")
+                            .setNegativeButton("Retry", null)
+                            .create()
+                            .show();
+                }
+                else if (Db.insertData(classString, schoolString)){
                     //showMessage("Success","data is inserted");
                     Intent addClassToList = new Intent(AddClass.this, MainActivity.class);
                     startActivity(addClassToList);
